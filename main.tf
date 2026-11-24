@@ -9,6 +9,6 @@ terraform {
 
 resource "null_resource" "gitops_demo" {
   triggers= {
-    version= "1.0"
+    version= "2.0"
     }
   }
